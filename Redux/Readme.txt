@@ -81,6 +81,16 @@ export default (state = INITIAL_STATE, action) => {
 
 }
 
+- past this code index.js which is avaible in reducer folder
+
+import reducer from './reducer';
+import {combineReducers} from 'redux';
+
+export default combineReducers({
+    root: reducer
+});
+
+
 step 3 : working in constant folder:
 ===================================
 * create ActionTypes variable sign object
